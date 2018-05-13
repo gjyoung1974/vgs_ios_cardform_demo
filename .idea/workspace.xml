@@ -1,7 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eec61c17-ab21-4e25-90ee-13ce27cbd4b0" name="Default" comment="" />
+    <list default="true" id="eec61c17-ab21-4e25-90ee-13ce27cbd4b0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/BraintreeDemoMerchantAPI.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/.slather.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/Images/PureLayout-CommonAttributes.ai" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/Images/PureLayout-CommonAttributes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/Images/PureLayout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/Images/XcodeRegexFindReplaceScreenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout.podspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-Mac/ALMacAppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-Mac/ALMacAppDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-Mac/ALMacViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-Mac/ALMacViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-Mac/Base.lproj/MainMenu.xib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-Mac/Example-Mac-Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-Mac/Images-Mac.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-Mac/ar.lproj/Localizable.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-Mac/en.lproj/Localizable.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-Mac/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/ALiOSAppDelegate.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/ALiOSAppDelegate.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/ALiOSDemoListController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/ALiOSDemoListController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo10ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo10ViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo11ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo11ViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo1ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo1ViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo2ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo2ViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo3ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo3ViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo4ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo4ViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo5ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo5ViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo6ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo6ViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo7ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo7ViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo8ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo8ViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo9ViewController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/ALiOSDemo9ViewController.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/iOSDemo10ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/iOSDemo11ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/iOSDemo1ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/iOSDemo2ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/iOSDemo3ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/iOSDemo4ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/iOSDemo5ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/iOSDemo6ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/iOSDemo7ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/iOSDemo8ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Demos/iOSDemo9ViewController.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Example-iOS-Bridging-Header.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Example-iOS-Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Images-iOS.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Images-iOS.xcassets/LaunchImage.launchimage/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Images-iOS.xcassets/LaunchImage.launchimage/Default-568h@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Images-iOS.xcassets/LaunchImage.launchimage/Default-667h@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/Images-iOS.xcassets/LaunchImage.launchimage/Default-736h@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/ar.lproj/InfoPlist.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/ar.lproj/Localizable.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/en.lproj/InfoPlist.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/en.lproj/Localizable.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-iOS/main.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Large.imagestack/Back.imagestacklayer/Content.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Large.imagestack/Back.imagestacklayer/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Large.imagestack/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Large.imagestack/Front.imagestacklayer/Content.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Large.imagestack/Front.imagestacklayer/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Large.imagestack/Middle.imagestacklayer/Content.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Large.imagestack/Middle.imagestacklayer/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Small.imagestack/Back.imagestacklayer/Content.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Small.imagestack/Back.imagestacklayer/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Small.imagestack/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Small.imagestack/Front.imagestacklayer/Content.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Small.imagestack/Front.imagestacklayer/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Small.imagestack/Middle.imagestacklayer/Content.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/App Icon - Small.imagestack/Middle.imagestacklayer/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Assets.xcassets/App Icon &amp; Top Shelf Image.brandassets/Top Shelf Image.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Assets.xcassets/LaunchImage.launchimage/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Base.lproj/Main.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Example-tvOS/TVApp.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayout.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayout.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayout.xcodeproj/xcshareddata/xcschemes/Example-Mac.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayout.xcodeproj/xcshareddata/xcschemes/Example-iOS-Xcode7.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayout.xcodeproj/xcshareddata/xcschemes/Example-iOS.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayout.xcodeproj/xcshareddata/xcschemes/Example-tvOS.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayout.xcodeproj/xcshareddata/xcschemes/PureLayout_Mac.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayout.xcodeproj/xcshareddata/xcschemes/PureLayout_iOS.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayout.xcodeproj/xcshareddata/xcschemes/PureLayout_tvOS.xcscheme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayout/ALView+PureLayout.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayout/ALView+PureLayout.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayout/NSArray+PureLayout.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayout/NSArray+PureLayout.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayout/PureLayout+Internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayout/PureLayout.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayout/PureLayoutDefines.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayoutTests/PureLayoutBatchTests.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayoutTests/PureLayoutCenteringTests.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayoutTests/PureLayoutDistributeTests.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayoutTests/PureLayoutIdentifierTests.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayoutTests/PureLayoutInstallationTests.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayoutTests/PureLayoutInstantiationTests.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayoutTests/PureLayoutInternalTests.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayoutTests/PureLayoutPinEdgesTests.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayoutTests/PureLayoutPriorityTests.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayoutTests/PureLayoutRemovalTests.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayoutTests/PureLayoutTestBase.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayoutTests/PureLayoutTestBase.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayoutTests/PureLayoutTests-Mac/PureLayoutTests-Mac-Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayoutTests/PureLayoutTests-Mac/PureLayoutTests-Mac-Prefix.pch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayoutTests/PureLayoutTests-Mac/en.lproj/InfoPlist.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayoutTests/PureLayoutTests-iOS/PureLayoutPriorityTests-iOS.m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayoutTests/PureLayoutTests-iOS/PureLayoutTests-iOS-Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayoutTests/PureLayoutTests-iOS/PureLayoutTests-iOS-Prefix.pch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/PureLayoutTests/PureLayoutTests-iOS/en.lproj/InfoPlist.strings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Supporting Files/PureLayout_Mac/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Supporting Files/PureLayout_iOS/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/PureLayout/Supporting Files/PureLayout_tvOS/Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/PureLayout/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgs_ios_cardform_demo.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgs_ios_cardform_demo/BraintreeDemoDemoContainmentViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/BraintreeDemoDemoContainmentViewController.m" afterDir="false" />
+    </list>
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/vgs_ios_cardform_demo-crkdguufmxxszbhkxcfkjqssigpn/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,12 +150,21 @@
     <favorites_list name="vgs_ios_cardform_demo" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="BraintreeDemoDemoContainmentViewController.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vgs_ios_cardform_demo/BraintreeDemoDemoContainmentViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="-312">
+              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Podfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Podfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -37,6 +181,7 @@
         <option value="$PROJECT_DIR$/vgs_ios_cardform_demo/main.m" />
         <option value="$PROJECT_DIR$/vgs_ios_cardform_demo/ViewController.h" />
         <option value="$PROJECT_DIR$/vgs_ios_cardform_demo/ViewController.m" />
+        <option value="$PROJECT_DIR$/vgs_ios_cardform_demo/BraintreeDemoDemoContainmentViewController.m" />
       </list>
     </option>
   </component>
@@ -49,7 +194,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="114" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="823" />
@@ -60,22 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="efc3779f:XcodeRootNode" />
-              <item name="vgs_ios_cardform_demo" type="1d218c8b:XcodeProjectNode" />
-            </path>
-            <path>
-              <item name="" type="efc3779f:XcodeRootNode" />
-              <item name="vgs_ios_cardform_demo" type="1d218c8b:XcodeProjectNode" />
-              <item name="vgs_ios_cardform_demo" type="fcab9f18:XcodeViewNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Source Files">
           <expand>
@@ -92,27 +222,31 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="vgs_ios_cardform_demo" type="1d218c8b:XcodeProjectNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="vgs_ios_cardform_demo" type="1d218c8b:XcodeProjectNode" />
+              <item name="vgs_ios_cardform_demo" type="fcab9f18:XcodeViewNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Cidr.FilesView">
         <subPane>
           <expand>
             <path>
               <item name="vgs_ios_cardform_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vgs_ios_cardform_demo" type="47feb1d3:ProjectViewModuleNode" />
-            </path>
-            <path>
-              <item name="vgs_ios_cardform_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vgs_ios_cardform_demo" type="47feb1d3:ProjectViewModuleNode" />
               <item name="vgs_ios_cardform_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vgs_ios_cardform_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vgs_ios_cardform_demo" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="vgs_ios_cardform_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="Demo Base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vgs_ios_cardform_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vgs_ios_cardform_demo" type="47feb1d3:ProjectViewModuleNode" />
               <item name="vgs_ios_cardform_demo" type="462c0819:PsiDirectoryNode" />
               <item name="vgs_ios_cardform_demo" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -163,16 +297,16 @@
       <updated>1526244066495</updated>
       <workItem from="1526244068272" duration="1045000" />
       <workItem from="1526245246584" duration="790000" />
-      <workItem from="1526246121203" duration="546000" />
+      <workItem from="1526246121203" duration="981000" />
+      <workItem from="1526247115712" duration="186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2381000" />
+    <option name="totallyTimeSpent" value="3002000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="823" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
     <layout>
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.24947146" />
@@ -202,13 +336,24 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vgs_ios_cardform_demo/BraintreeDemoDemoContainmentViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vgs_ios_cardform_demo/main.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#131#154#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -218,20 +363,10 @@
     <entry file="file://$PROJECT_DIR$/Podfile.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Podfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vgs_ios_cardform_demo/main.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#131#154#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -239,9 +374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="e#141#167#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -252,10 +384,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Podfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vgs_ios_cardform_demo/BraintreeDemoDemoContainmentViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="-312">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>

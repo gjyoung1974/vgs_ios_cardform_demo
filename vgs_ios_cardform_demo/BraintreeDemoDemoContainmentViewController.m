@@ -2,14 +2,14 @@
 
 #import <InAppSettingsKit/IASKAppSettingsViewController.h>
 #import <InAppSettingsKit/IASKSettingsReader.h>
-#import <PureLayout/PureLayout.h>
+#import <PureLayout/PureLayout/PureLayout/PureLayout.h>
 #import "BraintreeCore.h"
 
 #import "BraintreeDemoMerchantAPI.h"
 #import "BraintreeDemoBaseViewController.h"
 #import "BraintreeDemoIntegrationViewController.h"
-#import "BraintreeDemoSlideNavigationController.h"
 #import "BraintreeDemoSettings.h"
+#import <BraintreeDemoSlideNavigationController.h>
 
 @interface BraintreeDemoDemoContainmentViewController () <IASKSettingsDelegate, SlideNavigationControllerDelegate, IntegrationViewControllerDelegate>
 @property (nonatomic, strong) UIBarButtonItem *statusItem;
