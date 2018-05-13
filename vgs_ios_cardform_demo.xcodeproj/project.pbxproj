@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		4D77E2E7E8184ADB7E69BF95 /* libPods-vgs_ios_cardform_demoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74409ECC579EA49230A37C82 /* libPods-vgs_ios_cardform_demoTests.a */; };
 		B6A070A6B7307BABF062FF99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A07F2BA31FB74E1D9FF330 /* Main.storyboard */; };
+		B6A071316F61F64A2B2EB4CC /* BraintreeDemoSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A07E08BECC7EDA2F75B2CE /* BraintreeDemoSettings.m */; };
+		B6A071F2B9C29DBF53E2D400 /* BraintreeDemoIntegrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A07144C6B38D18BAB14954 /* BraintreeDemoIntegrationViewController.m */; };
 		B6A071FDD2B5853328611E06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A07650D1339DCB722BACF1 /* LaunchScreen.storyboard */; };
+		B6A0724CD594A8CD2F8196BB /* BraintreeDemoDemoContainmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A07275D0EA32C95B5E92D4 /* BraintreeDemoDemoContainmentViewController.m */; };
+		B6A07269FBF230CFE3BBA787 /* BraintreeDemoBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A07C26BF8FA23845C24967 /* BraintreeDemoBaseViewController.m */; };
 		B6A07671ACAF1EF093C47B21 /* vgs_ios_cardform_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A07336886C3A03A473252B /* vgs_ios_cardform_demoUITests.m */; };
+		B6A079337B1BEC9445C7A9B2 /* BraintreeDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A073DB10BF9EE6A5109B9E /* BraintreeDemoAppDelegate.m */; };
 		B6A07C336A63DAE44B2AE77A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A07429610E3B18F5FEFB63 /* main.m */; };
+		B6A07CEE186BFC9EE06B11F9 /* Root.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6A0768587630C25EB3B7062 /* Root.plist */; };
 		B6A07DE16A8B73E5E2DAB54E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A07EAB38B52CF52957A55B /* ViewController.m */; };
 		B6A07E6C7D887868E27BF138 /* vgs_ios_cardform_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A07EFAC149381DCF3618E9 /* vgs_ios_cardform_demoTests.m */; };
+		B6A07EAF851465A2215CDBFA /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A072393187266D36EF9785 /* Launch Screen.storyboard */; };
+		B6A07F09E6D96A2E50838B1B /* BraintreeDemoSlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A077E0BB5FC3AF3A8FB08B /* BraintreeDemoSlideNavigationController.m */; };
 		B6A07F2A4C4ACDF44422E519 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A079F5CEBA176AC7C4B4B5 /* AppDelegate.m */; };
 		B6A07FFF9228232448267CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6A072106AFFF7BAD4572833 /* Assets.xcassets */; };
 		C391F30433D417105B13DE3C /* libPods-vgs_ios_cardform_demoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24BB2240C886C1707AF608E2 /* libPods-vgs_ios_cardform_demoUITests.a */; };
@@ -47,21 +55,35 @@
 		82435B2DD6D8EA5DB35C156F /* Pods-vgs_ios_cardform_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vgs_ios_cardform_demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vgs_ios_cardform_demo/Pods-vgs_ios_cardform_demo.debug.xcconfig"; sourceTree = "<group>"; };
 		9DA5ED88276109AEF4B66F00 /* Pods-vgs_ios_cardform_demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vgs_ios_cardform_demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vgs_ios_cardform_demoTests/Pods-vgs_ios_cardform_demoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B6A070DDBC7D1E93BC823A9D /* vgs_ios_cardform_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vgs_ios_cardform_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A07144C6B38D18BAB14954 /* BraintreeDemoIntegrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BraintreeDemoIntegrationViewController.m; sourceTree = "<group>"; };
 		B6A07179362A88C58DA74556 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6A072106AFFF7BAD4572833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6A072393187266D36EF9785 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B6A07275D0EA32C95B5E92D4 /* BraintreeDemoDemoContainmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BraintreeDemoDemoContainmentViewController.m; sourceTree = "<group>"; };
 		B6A07336886C3A03A473252B /* vgs_ios_cardform_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vgs_ios_cardform_demoUITests.m; sourceTree = "<group>"; };
 		B6A073B70408C0A140846003 /* vgs_ios_cardform_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vgs_ios_cardform_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A073CAEC14828F4D7AE61A /* vgs_ios_cardform_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vgs_ios_cardform_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A073DB10BF9EE6A5109B9E /* BraintreeDemoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BraintreeDemoAppDelegate.m; sourceTree = "<group>"; };
 		B6A07429610E3B18F5FEFB63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6A07590F2A0519072A45994 /* BraintreeDemoSlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BraintreeDemoSlideNavigationController.h; sourceTree = "<group>"; };
 		B6A0764DA5B13F20FBFC0C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B6A0768587630C25EB3B7062 /* Root.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; name = Root.plist; path = Settings.bundle/Root.plist; sourceTree = "<group>"; };
+		B6A0776DA39FF2610F7D9691 /* BraintreeDemoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BraintreeDemoAppDelegate.h; sourceTree = "<group>"; };
+		B6A077E0BB5FC3AF3A8FB08B /* BraintreeDemoSlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BraintreeDemoSlideNavigationController.m; sourceTree = "<group>"; };
+		B6A0780876449BD4511B8E4E /* BraintreeDemoBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BraintreeDemoBaseViewController.h; path = "Base View Controllers/BraintreeDemoBaseViewController.h"; sourceTree = "<group>"; };
 		B6A079083DB00E20742D39C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6A079D546E153B32A764571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		B6A079F5CEBA176AC7C4B4B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B6A07AC2AE79ECA84EA4AF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B6A07B842202EB3E8FB92304 /* BraintreeDemoDemoContainmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BraintreeDemoDemoContainmentViewController.h; sourceTree = "<group>"; };
 		B6A07C0DCDA150D1C2EDDC59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6A07C26BF8FA23845C24967 /* BraintreeDemoBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BraintreeDemoBaseViewController.m; path = "Base View Controllers/BraintreeDemoBaseViewController.m"; sourceTree = "<group>"; };
+		B6A07C8CB548CA6C9EFF01A6 /* BraintreeDemoIntegrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BraintreeDemoIntegrationViewController.h; sourceTree = "<group>"; };
 		B6A07DBDCDB111BC92F0BB85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6A07E08BECC7EDA2F75B2CE /* BraintreeDemoSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BraintreeDemoSettings.m; path = settings/BraintreeDemoSettings.m; sourceTree = "<group>"; };
 		B6A07EAB38B52CF52957A55B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B6A07EFAC149381DCF3618E9 /* vgs_ios_cardform_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vgs_ios_cardform_demoTests.m; sourceTree = "<group>"; };
+		B6A07F29725E1685BF4FF492 /* BraintreeDemoSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BraintreeDemoSettings.h; path = settings/BraintreeDemoSettings.h; sourceTree = "<group>"; };
 		D4418242F68AC4D8E9F859FC /* Pods-vgs_ios_cardform_demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vgs_ios_cardform_demoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vgs_ios_cardform_demoUITests/Pods-vgs_ios_cardform_demoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,6 +149,20 @@
 				B6A07F2BA31FB74E1D9FF330 /* Main.storyboard */,
 				B6A07C0DCDA150D1C2EDDC59 /* ViewController.h */,
 				B6A07EAB38B52CF52957A55B /* ViewController.m */,
+				B6A07275D0EA32C95B5E92D4 /* BraintreeDemoDemoContainmentViewController.m */,
+				B6A07590F2A0519072A45994 /* BraintreeDemoSlideNavigationController.h */,
+				B6A07144C6B38D18BAB14954 /* BraintreeDemoIntegrationViewController.m */,
+				B6A077E0BB5FC3AF3A8FB08B /* BraintreeDemoSlideNavigationController.m */,
+				B6A07C8CB548CA6C9EFF01A6 /* BraintreeDemoIntegrationViewController.h */,
+				B6A07B842202EB3E8FB92304 /* BraintreeDemoDemoContainmentViewController.h */,
+				B6A073DB10BF9EE6A5109B9E /* BraintreeDemoAppDelegate.m */,
+				B6A0776DA39FF2610F7D9691 /* BraintreeDemoAppDelegate.h */,
+				B6A0780876449BD4511B8E4E /* BraintreeDemoBaseViewController.h */,
+				B6A07C26BF8FA23845C24967 /* BraintreeDemoBaseViewController.m */,
+				B6A07F29725E1685BF4FF492 /* BraintreeDemoSettings.h */,
+				B6A07E08BECC7EDA2F75B2CE /* BraintreeDemoSettings.m */,
+				B6A0768587630C25EB3B7062 /* Root.plist */,
+				B6A072393187266D36EF9785 /* Launch Screen.storyboard */,
 			);
 			path = vgs_ios_cardform_demo;
 			sourceTree = "<group>";
@@ -238,7 +274,7 @@
 		B6A07CCC9816828E22302374 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = ___FULLUSERNAME___;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
 			};
 			buildConfigurationList = B6A0754095C0E5680E1E2396 /* Build configuration list for PBXProject "vgs_ios_cardform_demo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -281,6 +317,8 @@
 				B6A07FFF9228232448267CAC /* Assets.xcassets in Resources */,
 				B6A071FDD2B5853328611E06 /* LaunchScreen.storyboard in Resources */,
 				B6A070A6B7307BABF062FF99 /* Main.storyboard in Resources */,
+				B6A07CEE186BFC9EE06B11F9 /* Root.plist in Resources */,
+				B6A07EAF851465A2215CDBFA /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +407,12 @@
 				B6A07C336A63DAE44B2AE77A /* main.m in Sources */,
 				B6A07F2A4C4ACDF44422E519 /* AppDelegate.m in Sources */,
 				B6A07DE16A8B73E5E2DAB54E /* ViewController.m in Sources */,
+				B6A0724CD594A8CD2F8196BB /* BraintreeDemoDemoContainmentViewController.m in Sources */,
+				B6A071F2B9C29DBF53E2D400 /* BraintreeDemoIntegrationViewController.m in Sources */,
+				B6A07F09E6D96A2E50838B1B /* BraintreeDemoSlideNavigationController.m in Sources */,
+				B6A079337B1BEC9445C7A9B2 /* BraintreeDemoAppDelegate.m in Sources */,
+				B6A07269FBF230CFE3BBA787 /* BraintreeDemoBaseViewController.m in Sources */,
+				B6A071316F61F64A2B2EB4CC /* BraintreeDemoSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

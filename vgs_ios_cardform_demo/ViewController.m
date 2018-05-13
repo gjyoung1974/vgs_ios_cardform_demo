@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "BraintreeCore.h"
 
 
 @interface ViewController ()
