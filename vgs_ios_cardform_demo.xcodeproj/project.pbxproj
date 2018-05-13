@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6A070A6B7307BABF062FF99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A07F2BA31FB74E1D9FF330 /* Main.storyboard */; };
+		B6A071FDD2B5853328611E06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A07650D1339DCB722BACF1 /* LaunchScreen.storyboard */; };
+		B6A07671ACAF1EF093C47B21 /* vgs_ios_cardform_demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A07336886C3A03A473252B /* vgs_ios_cardform_demoUITests.m */; };
+		B6A07C336A63DAE44B2AE77A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A07429610E3B18F5FEFB63 /* main.m */; };
+		B6A07DE16A8B73E5E2DAB54E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A07EAB38B52CF52957A55B /* ViewController.m */; };
+		B6A07E6C7D887868E27BF138 /* vgs_ios_cardform_demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A07EFAC149381DCF3618E9 /* vgs_ios_cardform_demoTests.m */; };
+		B6A07F2A4C4ACDF44422E519 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A079F5CEBA176AC7C4B4B5 /* AppDelegate.m */; };
+		B6A07FFF9228232448267CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6A072106AFFF7BAD4572833 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6A070639199C45DBF22F0A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6A07CCC9816828E22302374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6A07323D6192E72F012D139;
+			remoteInfo = vgs_ios_cardform_demo;
+		};
+		B6A071343FFFE66CA77A6002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6A07CCC9816828E22302374 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6A07323D6192E72F012D139;
+			remoteInfo = vgs_ios_cardform_demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6A070DDBC7D1E93BC823A9D /* vgs_ios_cardform_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vgs_ios_cardform_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A07179362A88C58DA74556 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6A072106AFFF7BAD4572833 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6A07336886C3A03A473252B /* vgs_ios_cardform_demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vgs_ios_cardform_demoUITests.m; sourceTree = "<group>"; };
+		B6A073B70408C0A140846003 /* vgs_ios_cardform_demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vgs_ios_cardform_demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A073CAEC14828F4D7AE61A /* vgs_ios_cardform_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vgs_ios_cardform_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A07429610E3B18F5FEFB63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6A0764DA5B13F20FBFC0C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B6A079083DB00E20742D39C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6A079D546E153B32A764571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B6A079F5CEBA176AC7C4B4B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6A07AC2AE79ECA84EA4AF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B6A07C0DCDA150D1C2EDDC59 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6A07DBDCDB111BC92F0BB85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6A07EAB38B52CF52957A55B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6A07EFAC149381DCF3618E9 /* vgs_ios_cardform_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vgs_ios_cardform_demoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6A0765D54791A0FFE83ED62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A07687049716790C46384E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A07F19358A579013391CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6A07749E8E34A33B5C94CA5 = {
+			isa = PBXGroup;
+			children = (
+				B6A07AC14DED159AD3B1217C /* Products */,
+				B6A0777292FA32B4FCCEA495 /* vgs_ios_cardform_demo */,
+				B6A07C10F99D91E8729435E6 /* vgs_ios_cardform_demoTests */,
+				B6A079DF9DEF89E9C4AB0E39 /* vgs_ios_cardform_demoUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		B6A0777292FA32B4FCCEA495 /* vgs_ios_cardform_demo */ = {
+			isa = PBXGroup;
+			children = (
+				B6A079D546E153B32A764571 /* Info.plist */,
+				B6A072106AFFF7BAD4572833 /* Assets.xcassets */,
+				B6A07650D1339DCB722BACF1 /* LaunchScreen.storyboard */,
+				B6A07429610E3B18F5FEFB63 /* main.m */,
+				B6A07179362A88C58DA74556 /* AppDelegate.h */,
+				B6A079F5CEBA176AC7C4B4B5 /* AppDelegate.m */,
+				B6A07F2BA31FB74E1D9FF330 /* Main.storyboard */,
+				B6A07C0DCDA150D1C2EDDC59 /* ViewController.h */,
+				B6A07EAB38B52CF52957A55B /* ViewController.m */,
+			);
+			path = vgs_ios_cardform_demo;
+			sourceTree = "<group>";
+		};
+		B6A079DF9DEF89E9C4AB0E39 /* vgs_ios_cardform_demoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6A07AC2AE79ECA84EA4AF2A /* Info.plist */,
+				B6A07336886C3A03A473252B /* vgs_ios_cardform_demoUITests.m */,
+			);
+			path = vgs_ios_cardform_demoUITests;
+			sourceTree = "<group>";
+		};
+		B6A07AC14DED159AD3B1217C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6A073CAEC14828F4D7AE61A /* vgs_ios_cardform_demo.app */,
+				B6A070DDBC7D1E93BC823A9D /* vgs_ios_cardform_demoTests.xctest */,
+				B6A073B70408C0A140846003 /* vgs_ios_cardform_demoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6A07C10F99D91E8729435E6 /* vgs_ios_cardform_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6A0764DA5B13F20FBFC0C6E /* Info.plist */,
+				B6A07EFAC149381DCF3618E9 /* vgs_ios_cardform_demoTests.m */,
+			);
+			path = vgs_ios_cardform_demoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6A07323D6192E72F012D139 /* vgs_ios_cardform_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6A07C88D850853FCFF7E0C3 /* Build configuration list for PBXNativeTarget "vgs_ios_cardform_demo" */;
+			buildPhases = (
+				B6A071832B0548C79A5EF01A /* Sources */,
+				B6A07687049716790C46384E /* Frameworks */,
+				B6A07D30ABB1549346D2EF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vgs_ios_cardform_demo;
+			productName = vgs_ios_cardform_demo;
+			productReference = B6A073CAEC14828F4D7AE61A /* vgs_ios_cardform_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6A07D402D239AF5EEF0D2D3 /* vgs_ios_cardform_demoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6A071777235792C1059A1D8 /* Build configuration list for PBXNativeTarget "vgs_ios_cardform_demoUITests" */;
+			buildPhases = (
+				B6A072565A8F00107D21D4C1 /* Sources */,
+				B6A07F19358A579013391CEA /* Frameworks */,
+				B6A0775995744531228A8FC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6A073233255D7852F0D0E33 /* PBXTargetDependency */,
+			);
+			name = vgs_ios_cardform_demoUITests;
+			productName = vgs_ios_cardform_demoUITests;
+			productReference = B6A073B70408C0A140846003 /* vgs_ios_cardform_demoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B6A07E97B645818B5924F179 /* vgs_ios_cardform_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6A075658451CFE697CC1949 /* Build configuration list for PBXNativeTarget "vgs_ios_cardform_demoTests" */;
+			buildPhases = (
+				B6A079A847C241500FD2833C /* Sources */,
+				B6A0765D54791A0FFE83ED62 /* Frameworks */,
+				B6A07439E0F20FE7DED1A79A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6A070A69041B2B96B3191E5 /* PBXTargetDependency */,
+			);
+			name = vgs_ios_cardform_demoTests;
+			productName = vgs_ios_cardform_demoTests;
+			productReference = B6A070DDBC7D1E93BC823A9D /* vgs_ios_cardform_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6A07CCC9816828E22302374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = B6A0754095C0E5680E1E2396 /* Build configuration list for PBXProject "vgs_ios_cardform_demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6A07749E8E34A33B5C94CA5;
+			productRefGroup = B6A07AC14DED159AD3B1217C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6A07323D6192E72F012D139 /* vgs_ios_cardform_demo */,
+				B6A07E97B645818B5924F179 /* vgs_ios_cardform_demoTests */,
+				B6A07D402D239AF5EEF0D2D3 /* vgs_ios_cardform_demoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6A07439E0F20FE7DED1A79A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A0775995744531228A8FC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A07D30ABB1549346D2EF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A07FFF9228232448267CAC /* Assets.xcassets in Resources */,
+				B6A071FDD2B5853328611E06 /* LaunchScreen.storyboard in Resources */,
+				B6A070A6B7307BABF062FF99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6A071832B0548C79A5EF01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A07C336A63DAE44B2AE77A /* main.m in Sources */,
+				B6A07F2A4C4ACDF44422E519 /* AppDelegate.m in Sources */,
+				B6A07DE16A8B73E5E2DAB54E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A072565A8F00107D21D4C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A07671ACAF1EF093C47B21 /* vgs_ios_cardform_demoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6A079A847C241500FD2833C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A07E6C7D887868E27BF138 /* vgs_ios_cardform_demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6A070A69041B2B96B3191E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6A07323D6192E72F012D139 /* vgs_ios_cardform_demo */;
+			targetProxy = B6A071343FFFE66CA77A6002 /* PBXContainerItemProxy */;
+		};
+		B6A073233255D7852F0D0E33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6A07323D6192E72F012D139 /* vgs_ios_cardform_demo */;
+			targetProxy = B6A070639199C45DBF22F0A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6A07650D1339DCB722BACF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6A079083DB00E20742D39C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B6A07F2BA31FB74E1D9FF330 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6A07DBDCDB111BC92F0BB85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6A0703614A7A2E87E301671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6A07557A898E1F2AB8FA342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/vgs_ios_cardform_demo.app/vgs_ios_cardform_demo";
+				INFOPLIST_FILE = vgs_ios_cardform_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gjyoung1974.demo.vgs.proxy.vgs-ios-cardform-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		B6A07A6B2053F1B57FAF9930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = vgs_ios_cardform_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gjyoung1974.demo.vgs.proxy.vgs-ios-cardform-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vgs_ios_cardform_demo;
+			};
+			name = Debug;
+		};
+		B6A07B7144B6C5E10C1D760A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vgs_ios_cardform_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gjyoung1974.demo.vgs.proxy.vgs-ios-cardform-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6A07D0D6EC0A6968BD07222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6A07D778D973E6311EDA5B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = vgs_ios_cardform_demoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gjyoung1974.demo.vgs.proxy.vgs-ios-cardform-demoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vgs_ios_cardform_demo;
+			};
+			name = Release;
+		};
+		B6A07E4DB5507F06B2016CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vgs_ios_cardform_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gjyoung1974.demo.vgs.proxy.vgs-ios-cardform-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6A07E94AEA2F9D82DE80408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/vgs_ios_cardform_demo.app/vgs_ios_cardform_demo";
+				INFOPLIST_FILE = vgs_ios_cardform_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gjyoung1974.demo.vgs.proxy.vgs-ios-cardform-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6A071777235792C1059A1D8 /* Build configuration list for PBXNativeTarget "vgs_ios_cardform_demoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A07A6B2053F1B57FAF9930 /* Debug */,
+				B6A07D778D973E6311EDA5B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6A0754095C0E5680E1E2396 /* Build configuration list for PBXProject "vgs_ios_cardform_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A0703614A7A2E87E301671 /* Debug */,
+				B6A07D0D6EC0A6968BD07222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6A075658451CFE697CC1949 /* Build configuration list for PBXNativeTarget "vgs_ios_cardform_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A07E94AEA2F9D82DE80408 /* Debug */,
+				B6A07557A898E1F2AB8FA342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B6A07C88D850853FCFF7E0C3 /* Build configuration list for PBXNativeTarget "vgs_ios_cardform_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6A07E4DB5507F06B2016CC3 /* Debug */,
+				B6A07B7144B6C5E10C1D760A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6A07CCC9816828E22302374 /* Project object */;
+}

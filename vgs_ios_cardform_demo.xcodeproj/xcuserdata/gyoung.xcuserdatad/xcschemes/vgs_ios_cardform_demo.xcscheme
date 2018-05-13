@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B6A07323D6192E72F012D139"
+               BuildableName = "vgs_ios_cardform_demo.app"
+               BlueprintName = "vgs_ios_cardform_demo"
+               ReferencedContainer = "container:vgs_ios_cardform_demo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B6A07323D6192E72F012D139"
+            BuildableName = "vgs_ios_cardform_demo.app"
+            BlueprintName = "vgs_ios_cardform_demo"
+            ReferencedContainer = "container:vgs_ios_cardform_demo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
