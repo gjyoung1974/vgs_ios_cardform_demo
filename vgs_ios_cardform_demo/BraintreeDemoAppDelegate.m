@@ -7,7 +7,7 @@
 #import "FLEXManager.h"
 
 #if DEBUG
-#import <FLEX/FLEXManager.h>
+#import "FLEX/FLEXManager.h"
 #endif
 
 NSString *BraintreeDemoAppDelegatePaymentsURLScheme = @"com.braintreepayments.DropInDemo.payments";
