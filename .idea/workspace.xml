@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eec61c17-ab21-4e25-90ee-13ce27cbd4b0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/Base View Controllers/BraintreeDemoBaseViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/Base View Controllers/BraintreeDemoBaseViewController.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/BraintreeDemoAppDelegate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/BraintreeDemoAppDelegate.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/BraintreeDemoDemoContainmentViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/BraintreeDemoDemoContainmentViewController.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/BraintreeDemoIntegrationViewController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/BraintreeDemoIntegrationViewController.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/BraintreeDemoSlideNavigationController.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/BraintreeDemoSlideNavigationController.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/Launch Screen.storyboard" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/Settings.bundle/Root.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/settings/BraintreeDemoSettings.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/settings/BraintreeDemoSettings.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vgs_ios_cardform_demo.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vgs_ios_cardform_demo.xcodeproj/xcuserdata/gyoung.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo.xcodeproj/xcuserdata/gyoung.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vgs_ios_cardform_demo/Base.lproj/LaunchScreen.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vgs_ios_cardform_demo/ViewController.m" beforeDir="false" afterPath="$PROJECT_DIR$/vgs_ios_cardform_demo/ViewController.m" afterDir="false" />
-    </list>
+    <list default="true" id="eec61c17-ab21-4e25-90ee-13ce27cbd4b0" name="Default" comment="" />
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/vgs_ios_cardform_demo-crkdguufmxxszbhkxcfkjqssigpn/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,8 +19,8 @@
       <file leaf-file-name="BraintreeDemoDemoContainmentViewController.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vgs_ios_cardform_demo/BraintreeDemoDemoContainmentViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="30">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -162,12 +141,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.vgs_ios_cardform_demo">
     <configuration name="vgs_ios_cardform_demo" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="vgs_ios_cardform_demo" TARGET_NAME="vgs_ios_cardform_demo" CONFIG_NAME="Debug" SCHEME_NAME="vgs_ios_cardform_demo" IS_LOCATION_SIMULATION_ALLOWED="true" RUN_TARGET_PROJECT_NAME="vgs_ios_cardform_demo" RUN_TARGET_NAME="vgs_ios_cardform_demo" MAKE_ACTIVE="TRUE">
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
         <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
       </EXTENSION>
     </configuration>
+    <list>
+      <item itemvalue="Application.vgs_ios_cardform_demo" />
+      <item itemvalue="XCTest.IASKLogicTests" />
+      <item itemvalue="Application.InAppSettingsKit" />
+      <item itemvalue="Application.InAppSettingsKitFramework" />
+    </list>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -178,12 +163,12 @@
       <updated>1526244066495</updated>
       <workItem from="1526244068272" duration="1045000" />
       <workItem from="1526245246584" duration="790000" />
-      <workItem from="1526246121203" duration="282000" />
+      <workItem from="1526246121203" duration="546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2117000" />
+    <option name="totallyTimeSpent" value="2381000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="0" />
@@ -269,8 +254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vgs_ios_cardform_demo/BraintreeDemoDemoContainmentViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>

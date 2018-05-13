@@ -43,6 +43,27 @@
 			remoteGlobalIDString = B6A07323D6192E72F012D139;
 			remoteInfo = vgs_ios_cardform_demo;
 		};
+		B6A077D7CD53E586AEDA1FAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6A07F116744FF356B85D7B6 /* InAppSettingsKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DAC156231B54533D00655031;
+			remoteInfo = InAppSettingsKitFramework;
+		};
+		B6A078AB5B4E1E16BE43879E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6A07F116744FF356B85D7B6 /* InAppSettingsKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E42ADAA2168202D700295D85;
+			remoteInfo = InAppSettingsKitTests;
+		};
+		B6A07F94189952D405C1DFDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6A07F116744FF356B85D7B6 /* InAppSettingsKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E42ADA8F168202D700295D85;
+			remoteInfo = InAppSettingsKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +104,7 @@
 		B6A07E08BECC7EDA2F75B2CE /* BraintreeDemoSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BraintreeDemoSettings.m; path = settings/BraintreeDemoSettings.m; sourceTree = "<group>"; };
 		B6A07EAB38B52CF52957A55B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B6A07EFAC149381DCF3618E9 /* vgs_ios_cardform_demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vgs_ios_cardform_demoTests.m; sourceTree = "<group>"; };
+		B6A07F116744FF356B85D7B6 /* InAppSettingsKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = InAppSettingsKit.xcodeproj; path = vgs_ios_cardform_demo/InAppSettingsKit/InAppSettingsKit.xcodeproj; sourceTree = "<group>"; };
 		B6A07F29725E1685BF4FF492 /* BraintreeDemoSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BraintreeDemoSettings.h; path = settings/BraintreeDemoSettings.h; sourceTree = "<group>"; };
 		D4418242F68AC4D8E9F859FC /* Pods-vgs_ios_cardform_demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vgs_ios_cardform_demoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vgs_ios_cardform_demoUITests/Pods-vgs_ios_cardform_demoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,6 +147,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B6A075B9EC403071884994E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6A075ABDD4EEE4870CA104E /* libInAppSettingsKit.a */,
+				B6A07C54B654DAE51FBA7B2A /* InAppSettingsKitTests.xctest */,
+				B6A07516EA1C43E1B9C1B713 /* InAppSettingsKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B6A07749E8E34A33B5C94CA5 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +166,7 @@
 				B6A079DF9DEF89E9C4AB0E39 /* vgs_ios_cardform_demoUITests */,
 				EDD6F941549CB1F42651B4AE /* Pods */,
 				1E26F8C86400AC52E0E132BE /* Frameworks */,
+				B6A07F116744FF356B85D7B6 /* InAppSettingsKit.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -286,6 +319,12 @@
 			mainGroup = B6A07749E8E34A33B5C94CA5;
 			productRefGroup = B6A07AC14DED159AD3B1217C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B6A075B9EC403071884994E6 /* Products */;
+					ProjectRef = B6A07F116744FF356B85D7B6 /* InAppSettingsKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B6A07323D6192E72F012D139 /* vgs_ios_cardform_demo */,
@@ -294,6 +333,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B6A07516EA1C43E1B9C1B713 /* InAppSettingsKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = InAppSettingsKit.framework;
+			remoteRef = B6A077D7CD53E586AEDA1FAD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6A075ABDD4EEE4870CA104E /* libInAppSettingsKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libInAppSettingsKit.a;
+			remoteRef = B6A07F94189952D405C1DFDF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B6A07C54B654DAE51FBA7B2A /* InAppSettingsKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = InAppSettingsKitTests.xctest;
+			remoteRef = B6A078AB5B4E1E16BE43879E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		B6A07439E0F20FE7DED1A79A /* Resources */ = {
@@ -562,6 +625,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gjyoung1974.demo.vgs.proxy.vgs-ios-cardform-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/../vgs_ios_cardform_demo/InAppSettingsKit-master\"/**";
 			};
 			name = Release;
 		};
@@ -640,6 +704,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gjyoung1974.demo.vgs.proxy.vgs-ios-cardform-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/../vgs_ios_cardform_demo/InAppSettingsKit-master\"/**";
 			};
 			name = Debug;
 		};
