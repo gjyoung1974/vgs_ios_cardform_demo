@@ -1,9 +1,9 @@
 #import "BraintreeDemoIntegrationViewController.h"
-#import <InAppSettingsKit/IASKAppSettingsViewController.h>
-#import <InAppSettingsKit/IASKSpecifierValuesViewController.h>
-#import <InAppSettingsKit/IASKViewController.h>
-#import <InAppSettingsKit/IASKSettingsReader.h>
-#import <iOS-Slide-Menu/SlideNavigationController.h>
+
+#import "iOS-Slide-Menu/SlideNavigationController.h"
+#import "InAppSettingsKit/InAppSettingsKit/Models/IASKSettingsReader.h"
+#import "InAppSettingsKit/InAppSettingsKit/Controllers/IASKAppSettingsViewController.h"
+#import "InAppSettingsKit/InAppSettingsKit/Controllers/IASKSpecifierValuesViewController.h"
 
 @interface BraintreeDemoIntegrationViewController ()
 @property (nonatomic, strong) IASKSpecifierValuesViewController *targetViewController;
@@ -27,10 +27,12 @@
     for (NSInteger section = 0; section < reader.numberOfSections; section++) {
         for (NSInteger row = 0; row < [reader numberOfRowsForSection:section]; row++) {
             IASKSpecifier *specifier = [reader specifierForIndexPath:[NSIndexPath indexPathForRow:row inSection:section]];
-            if ([specifier.title isEqualToString:@"Integration"]) {
-                self.specifier = specifier;
-                break;
-            }
+
+          //TODO fix this::
+//            if ([specifier.title isEqualToString:@"Integration"]) {
+//                self.specifier = specifier;
+//                break;
+//            }
         }
     }
     

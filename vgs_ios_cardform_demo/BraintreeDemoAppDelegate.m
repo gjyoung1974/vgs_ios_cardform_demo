@@ -4,6 +4,7 @@
 #import "BraintreeDemoDemoContainmentViewController.h"
 #import "BraintreeCore.h"
 #import "BTDropInOverrides.h"
+#import "FLEXManager.h"
 
 #if DEBUG
 #import <FLEX/FLEXManager.h>

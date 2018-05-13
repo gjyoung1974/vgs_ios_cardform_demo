@@ -8,8 +8,9 @@
 #import "BraintreeDemoMerchantAPI.h"
 #import "BraintreeDemoBaseViewController.h"
 #import "BraintreeDemoIntegrationViewController.h"
+#import "BraintreeDemoSlideNavigationController.h"
 #import "BraintreeDemoSettings.h"
-#import <BraintreeDemoSlideNavigationController.h>
+#import "PureLayoutDefines.h"
 
 @interface BraintreeDemoDemoContainmentViewController () <IASKSettingsDelegate, SlideNavigationControllerDelegate, IntegrationViewControllerDelegate>
 @property (nonatomic, strong) UIBarButtonItem *statusItem;
@@ -221,10 +222,11 @@
 
     [self.view addSubview:viewController.view];
 
-    [viewController.view autoPinToTopLayoutGuideOfViewController:self withInset:0];
-    [viewController.view autoPinToBottomLayoutGuideOfViewController:self withInset:0];
-    [viewController.view autoPinEdgeToSuperviewEdge:ALEdgeLeading];
-    [viewController.view autoPinEdgeToSuperviewEdge:ALEdgeTrailing];
+    //TODO: fix this
+//    [viewController.view autoPinToTopLayoutGuideOfViewController:self withInset:0];
+//    [viewController.view autoPinToBottomLayoutGuideOfViewController:self withInset:0];
+//    [viewController.view autoPinEdgeToSuperviewEdge:ALEdgeLeading];
+//    [viewController.view autoPinEdgeToSuperviewEdge:ALEdgeTrailing];
 
     [viewController didMoveToParentViewController:self];
 }
